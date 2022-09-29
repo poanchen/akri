@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: akri-anomaly-detection-app
-        image: ghcr.io/project-akri/akri/anomaly-detection-app:v0.8.8-dev
+        image: ghcr.io/project-akri/akri/anomaly-detection-app:latest-dev
         imagePullPolicy: Always
         env:
         - name: CONFIGURATION_NAME
