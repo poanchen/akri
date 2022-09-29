@@ -20,7 +20,7 @@ spec:
         - name: CONFIGURATION_NAME
           value: akri-opcua-monitoring
         - name: AKRI_OPCUA_MONITORING_SVC_SERVICE_PORT_GRPC
-          value: test
+          value: 5002
 ---
 apiVersion: v1
 kind: Service
